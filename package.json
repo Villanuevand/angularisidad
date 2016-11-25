@@ -1,0 +1,29 @@
+{
+  "name": "angularisidad",
+  "version": "1.0.0",
+  "description": "una introducción básica de angularjs para universidades.",
+  "main": "index.js",
+  "scripts": {
+    "start": "browser-sync start --port 8000 --server 'app' --files '../src'"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Villanuevand/angularisidad.git"
+  },
+  "keywords": [
+    "angular",
+    "universidades",
+    "venezuela",
+    "ngvenezuela",
+    "villanuevand"
+  ],
+  "author": "Andrés Villanueva",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Villanuevand/angularisidad/issues"
+  },
+  "homepage": "https://github.com/Villanuevand/angularisidad#readme",
+  "devDependencies": {
+    "browser-sync": "^2.14.0"
+  }
+}
