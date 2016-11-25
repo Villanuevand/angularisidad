@@ -1,3 +1,10 @@
-/**
- * Created by avillanueva on 25/11/16.
- */
+(function () {
+    'use strict';
+    angular
+        .module('angularisidad')
+        .controller('homeController', homeController)
+
+    function homeController () {
+            console.log('¡Cargo!');
+    }
+})();
